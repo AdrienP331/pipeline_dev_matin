@@ -14,6 +14,9 @@ def create_asset_folders(asset_document):
     """
     folders_to_create = [
         "<project_root>/assets/<type>/<group>/<asset>/modeling/work",
+        "<project_root>/assets/<type>/<group>/<asset>/modeling/lp",
+        "<project_root>/assets/<type>/<group>/<asset>/modeling/hp",
+        "<project_root>/assets/<type>/<group>/<asset>/modeling/turn_around",
         "<project_root>/assets/<type>/<group>/<asset>/modeling/publish",
         "<project_root>/assets/<type>/<group>/<asset>/shading/work",
         "<project_root>/assets/<type>/<group>/<asset>/shading/publish",
